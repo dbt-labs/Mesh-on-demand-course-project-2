@@ -1,6 +1,6 @@
 models:
   - name: stg_customers
-    group: finance
+    group: customer_service
     access: protected
     config:
       contract:
@@ -21,7 +21,7 @@ models:
 
 
   - name: stg_orders
-    group: finance
+    group: customer_service
     access: protected
     config:
       contract:
