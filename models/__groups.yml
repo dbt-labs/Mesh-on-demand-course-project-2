@@ -1,11 +1,5 @@
 groups:
-  - name: finance
-    owner:
-      name: Finance Team
-      email: finance_and_marketing@jaffle.shop
-
-
-  - name: customer_service
+- name: customer_service
     owner:
       name: Customer Service Team
       email: cx@jaffle.shop
