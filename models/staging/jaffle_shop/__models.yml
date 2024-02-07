@@ -1,0 +1,46 @@
+models:
+  - name: stg_customers
+    group: finance
+    access: protected
+    config:
+      contract:
+        enforced: true
+    columns:
+    - name: last_name
+      data_type: string
+      constraints:
+        - type: not_null
+    - name: customer_id
+      data_type: int
+      constraints:
+        - type: not_null
+    - name: first_name
+      data_type: string
+      constraints:
+        - type: not_null
+
+
+  - name: stg_orders
+    group: finance
+    access: protected
+    config:
+      contract:
+        enforced: true
+    columns:
+    - name: order_id
+      data_type: int
+      constraints:
+        - type: not_null
+    - name: customer_id
+      data_type: int
+      constraints:
+        - type: not_null
+    - name: order_date
+      data_type: date
+      constraints:
+        - type: not_null
+    - name: order_status
+      data_type: string
+      constraints:
+        - type: not_null
+
