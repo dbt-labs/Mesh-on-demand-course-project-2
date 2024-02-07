@@ -1,0 +1,2 @@
+projects:
+  - name: jaffle_finance  # matches the 'name' in their 'dbt_project.yml'
