@@ -1,7 +1,7 @@
 models:
   - name: stg_customers
     group: customer_service
-    access: protected
+    access: public
     config:
       contract:
         enforced: true
