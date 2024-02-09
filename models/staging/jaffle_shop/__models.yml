@@ -22,7 +22,7 @@ models:
 
   - name: stg_orders
     group: customer_service
-    access: protected
+    access: public
     config:
       contract:
         enforced: true
