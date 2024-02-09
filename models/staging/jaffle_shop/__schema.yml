@@ -1,7 +1,7 @@
 models:
   - name: stg_customers
     group: customer_service
-    access: public
+    access: private
     config:
       contract:
         enforced: true
@@ -22,7 +22,7 @@ models:
 
   - name: stg_orders
     group: customer_service
-    access: public
+    access: private
     config:
       contract:
         enforced: true
