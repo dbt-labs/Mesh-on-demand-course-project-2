@@ -30,3 +30,7 @@ models:
       data_type: int
       constraints:
         - type: not_null        
+    - name: order_status
+      data_type: string
+      constraints:
+        - type: not_null              
