@@ -10,6 +10,10 @@ models:
       data_type: int
       constraints:
        - type: not_null
+    - name: order_id
+      data_type: int
+      constraints:
+       - type: not_null
     - name: first_name
       data_type: string
       constraints:
