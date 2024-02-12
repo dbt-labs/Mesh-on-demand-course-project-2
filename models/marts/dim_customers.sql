@@ -14,6 +14,7 @@ customer_orders as (
 
     select
         customer_id,
+        order_id,
         order_status,
         min(order_date) as first_order_date,
         max(order_date) as most_recent_order_date,
@@ -21,7 +22,7 @@ customer_orders as (
        
     from orders
 
-    group by 1,2
+    group by 1,2,3
 
 ),
 
